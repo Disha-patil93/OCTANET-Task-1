@@ -1,0 +1,314 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the hero section */
+.hero {
+    position: relative;
+    background-image: url('car.jpg');
+    background-size:cover;
+    background-position: center;
+    color: #36788c;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the content sections */
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.content h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Styling for the service section */
+.service {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.service img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .hero {
+        background-size: auto;
+        padding: 60px 0;
+    }
+}
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the hero section */
+.hero {
+    position: relative;
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #100e0e;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the content sections */
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.content h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Styling for the service section */
+.service {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.service img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .hero {
+        background-size: auto;
+        padding: 60px 0;
+    }
+}
+/*......................*/
+/* styles.css */
+
+/* Reset some default styles for the page */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply background color and text styling */
+body {
+    background-color: #f1b5b5;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header with a background color and centered text */
+header {
+    background-color: #caf2fb;
+    color: #0a0202;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    background-color: #444;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the content sections */
+.content {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.content h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Smooth scrolling for the navigation links */
+nav a {
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00bcd4;
+}
+
+/* Define styles for the sections with IDs */
+#home {
+    background-image: url('home-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#home h1 {
+    font-size: 3rem;
+}
+
+#About Us {
+    background-color: #f9f9f9;
+}
+
+#services {
+    background-color: #f0f0f0;
+}
+
+#contact {
+    background-color: #e0e0e0;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    #home {
+        background-size: auto;
+        padding: 60px 0;
+    }
+}
+
+/* Style for service images */
+.service img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
